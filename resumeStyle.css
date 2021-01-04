@@ -1,0 +1,43 @@
+.img{
+    margin-left: 2rem;
+    margin-left: 10%;
+}
+
+.skillsBlock{
+    font-family: "Times New Roman";
+    font-size: 13pt;
+    margin-left: 5%;
+    color: midnightblue;
+}
+
+h1{
+    font-family: "Book Antiqua";
+    text-align: center;
+}
+
+h3{
+    font-family: "Book Antiqua";
+    text-align: center;
+}
+
+li{
+    margin-top: 2px;
+}
+
+a{
+    color: #008000;
+    text-decoration: none;
+}
+a:visited {
+    color: #800080;
+}
+a:hover {
+    color: #800000;
+    text-decoration: underline;
+}
+
+main{
+    margin-bottom: 10%;
+}
+
+
