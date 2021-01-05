@@ -6,8 +6,9 @@ img{
 
 .skillsBlock{
     font-family: "Times New Roman";
-    font-size: 13pt;
+    font-size: 15pt;
     padding-left: 2%;
+    padding-right: 2%;
     color: midnightblue;
 }
 
@@ -42,69 +43,62 @@ main{
 }
 
 .floatingImage{
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom:5%;
     font-family: "Times New Roman";
-    font-size: 13pt;
+    font-size: 15pt;
     color: midnightblue;
 }
 
 .header{
-    z-index: 5;
+   /* position: absolute;*/
     width: 100%;
-    position: fixed;
-    top: 0;
     background-color: LightBlue;
 }
 
-.block1{
-width: 20%;
-padding-left: 2%;
-margin-bottom:2%;
-position: absolute;
-top: 0;
-left: 0;
-}
-
-.block2{
-width: 20%;
-padding-left: 2%;
-margin-bottom:2%;
-position: absolute;
-top: 0;
-left: 25%;
-}
-
-.block3{
-width: 20%;
-padding-left: 2%;
-margin-bottom:2%;
-position: absolute;
-top: 0;
-left: 50%;
-}
-
-.block4{
-width: 20%;
-padding-left: 2%;
-margin-bottom:2%;
-position: absolute;
-top: 0;
-left: 75%;
+.block{
+    -webkit-flex: 1;
+    flex: 1;
+    min-width: 250px;
+    max-width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-bottom: 2%;
 }
 
 .skills{
-position: relative;
-width: 100%;
-border: 1px solid;
-border-color: grey;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid;
+    border-color: grey;
+    margin-bottom: 2%;
+    margin-right: 5%;
 }
 
-.personalDetails{
-position: relative;
-width: 100%;
-border: 1px solid;
-border-color: grey;
-top: 35vh;
+@media (min-width:900px) {
+    nav {
+       position: fixed;
+       left: 0px;
+       width: 10%;
+    }
+    .content {
+    margin-left: 10%;
+    }
 }
 
+@media (max-width:899px) {
+  nav li {
+    display: inline;
+  }
+}
+
+.badge{
+    position: relative;
+    top: -7vh;
+    left: 8vh;
+    width: 25%;
+    top: 7vh;
+    left: 8vh;
+}
