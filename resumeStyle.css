@@ -22,9 +22,12 @@ h3{
     text-align: center;
 }
 
+ul{
+    z-index: 1;
+}
+
 li{
     margin-top: 2px;
-    z-index: 1;
 }
 
 a{
